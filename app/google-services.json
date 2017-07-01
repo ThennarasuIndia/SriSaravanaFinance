@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "367791515719",
+    "firebase_url": "https://financeproject-cd631.firebaseio.com",
+    "project_id": "financeproject-cd631",
+    "storage_bucket": "financeproject-cd631.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367791515719:android:d3342ec0e374529f",
+        "android_client_info": {
+          "package_name": "com.saravana.finance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367791515719-jebhv3akpgnb9hatd7b9gjpeb46gjnur.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saravana.finance",
+            "certificate_hash": "70a6426dc982c953bb49e4cb22a792f08bcb692a"
+          }
+        },
+        {
+          "client_id": "367791515719-dkhm60vvk8aqdg8ffm6gjh6sos28ooa0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC0JzFbHKvRsvvOHO4j_oDpJKI9nUs-yU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367791515719-dkhm60vvk8aqdg8ffm6gjh6sos28ooa0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

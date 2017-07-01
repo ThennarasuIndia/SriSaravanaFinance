@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.saravana.finance">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".controller.SplashScreenActivity"
+            android:theme="@style/NoTitle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.PartnersList"
+            android:label="@string/title_activity_partners_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".controller.AddPartner" />
+        <activity
+            android:name=".controller.PartiesList"
+            android:label="@string/title_activity_parties_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".controller.AddParty" />
+        <activity android:name=".controller.PartyDetail"></activity>
+    </application>
+
+</manifest>

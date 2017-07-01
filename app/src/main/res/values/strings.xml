@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Sri Saravana Finance</string>
+    <string name="title_activity_partners_list">PartnersList</string>
+    <string name="partner_name">Partner\'s Name</string>
+    <string name="partner_phone">Partner\'s Phone Number</string>
+    <string name="partner_address">Partner\'s Address</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="partner_name_error">Please enter Partner\'s Name</string>
+    <string name="partner_phone_error">Please enter Partner\'s Phone Number</string>
+    <string name="partner_address_error">Please enter Partner\'s Address</string>
+    <string name="title_activity_parties_list">PartiesList</string>
+    <string name="parties_name">Party\'s Name</string>
+    <string name="parties_phone">Party\'s Phone number</string>
+    <string name="parties_address">Party\'s Address</string>
+    <string name="finance_amount">Given finance amount</string>
+    <string name="loan_no">Loan Number</string>
+    <string name="interest_perxcent">Interest Percentage %</string>
+    <string name="due_date">Due Date</string>
+    <string name="number_of_dues">Number of Due\'s</string>
+    <string name="partiesLoanNumber_error">Please enter the parties loan number</string>
+    <string name="partiesName_error">Enter party name</string>
+    <string name="partiesAmount_error">Enter loan amount</string>
+    <string name="interestPercent_error">Enter percent of interest</string>
+    <string name="dueDate_error">Enter due date of loan</string>
+    <string name="numberOfDues_error">Enter number of dues</string>
+    <string name="partiesPhone_error">Enter party phone number</string>
+    <string name="partiesAddress_error">Enter party address</string>
+</resources>
