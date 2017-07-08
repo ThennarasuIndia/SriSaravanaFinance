@@ -15,16 +15,13 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.saravana.finance.Adapter.PartnerAdapter;
+import com.saravana.finance.adapter.PartnerAdapter;
 import com.saravana.finance.R;
-import com.saravana.finance.Utils.RecyclerItemClickListener;
+import com.saravana.finance.utils.RecyclerItemClickListener;
 import com.saravana.finance.model.PartnersModel;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
-import java.util.concurrent.LinkedBlockingDeque;
 
 public class PartnersList extends AppCompatActivity {
 

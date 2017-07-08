@@ -9,8 +9,7 @@ import android.widget.EditText;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.saravana.finance.R;
-import com.saravana.finance.Utils.Utility;
-import com.saravana.finance.model.PartnersModel;
+import com.saravana.finance.utils.Utility;
 import com.saravana.finance.model.PartyModel;
 
 import java.text.SimpleDateFormat;
@@ -133,7 +132,6 @@ public class AddParty extends AppCompatActivity {
         cancelButton = (Button) findViewById(R.id.cancelButton);
         partiesLoanNumber = (EditText) findViewById(R.id.partiesLoanNumber);
         partiesLoanNumber.setEnabled(false);
-
 
         String text = partnersName;
         char first_char = text.charAt(0);

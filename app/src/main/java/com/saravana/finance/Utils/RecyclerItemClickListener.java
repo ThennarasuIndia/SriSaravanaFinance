@@ -1,4 +1,4 @@
-package com.saravana.finance.Utils;
+package com.saravana.finance.utils;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

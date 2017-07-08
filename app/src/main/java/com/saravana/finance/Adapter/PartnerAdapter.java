@@ -1,4 +1,4 @@
-package com.saravana.finance.Adapter;
+package com.saravana.finance.adapter;
 
 import android.app.Activity;
 import android.support.v7.widget.RecyclerView;
@@ -8,10 +8,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.saravana.finance.R;
-import com.saravana.finance.controller.PartnersList;
 import com.saravana.finance.model.PartnersModel;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**

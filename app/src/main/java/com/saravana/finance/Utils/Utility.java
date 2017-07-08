@@ -1,4 +1,4 @@
-package com.saravana.finance.Utils;
+package com.saravana.finance.utils;
 
 /**
  * Created by THENNA on 3/16/2017.
